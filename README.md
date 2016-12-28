@@ -4,7 +4,8 @@ Currently being hosted on s3 via:
 http://dannyhwtest.s3-website-eu-west-1.amazonaws.com/
 
 deployment to s3 is done via deploy.sh
-running on linux requires node,npm,git.
+
+Requires node,npm,git. Deploy script will only work on a bash shell and requires aws cli to be setup with credentials.
 
 ## Install dependencies
 
