@@ -1,23 +1,18 @@
 ---
 title: Daniel Williams tech blog
 layout: Homepage
-hero: https://farm4.staticflickr.com/3949/15589950511_3675b15e59_k.jpg
-# hero credit: https://www.flickr.com/photos/pslee999/15589950511/
+hero: https://s3-eu-west-1.amazonaws.com/dannyhw.info.images/tech-1495181_1280.jpg
+
 cta:
-  label: About this theme
+  label: About me
   link: "about"
 ---
 
-Hi there. Before having fun with Phenomic, be sure to read the documentation :
-
-* [How to setup a new project with Phenomic](https://phenomic.io/docs/setup/)
-* [Getting Started with Phenomic](https://phenomic.io/docs/getting-started/)
-* [Usage & APIs](https://phenomic.io/docs/usage/)
-* [FAQ](https://phenomic.io/docs/faq/)
-
-Also take a look at
-[existing websites that use Phenomic](https://phenomic.io/showcase/),
-some projects share their source code!
+I'm interested in new technology, currently one 
+of the newest and most interesting things out there is serverless 
+architecture. I heard about this through my work as a dev ops engineer
+and I've created this site as the first step in a personal project to
+learn more about these new ideas.
 
 <!-- demo to show you that you can use "assets" folder -->
 <small>
@@ -30,15 +25,8 @@ some projects share their source code!
 
 ---
 
-You may want to take a look at the [404.html](/404.html) and tweak the render.
-
-If you need to make adjustments, you can directly alter page layouts in
-``src/layouts/``;
-small things like the header, footer, buttons and so on can be changed in
-``src/components/``;
-and for colors and common CSS variables, you can modify ``postcss.config.js``.
-
-_You feel like the base theme is not enough or you just saw something wrong?_
-[Please help us make Phenomic better!](https://phenomic.io/contributing/)
+This site is a static website hosted in S3 and generated using markdown
+with the help of [phenomic](http://phenomic.io). This means I have no
+servers and minimal cost.
 
 ---
