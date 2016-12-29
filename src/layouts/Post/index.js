@@ -2,8 +2,11 @@ import React, { PropTypes } from "react"
 
 import LatestPosts from "../../components/LatestPosts"
 import Page from "../Page"
+import Helmet from 'react-helmet'
+import disqus from './disqus-script'
 
 import styles from "./index.css"
+
 
 const Post = (props) => {
   // it's up to you to choose what to do with this layout ;)
@@ -26,6 +29,9 @@ const Post = (props) => {
       }
     >
       <hr />
+      <div className={styles.comments} id='disqus_thread' />
+      <Helmet script={[{ type: 'text/javascript', innerHTML: disqus }]} />
+
       <LatestPosts />
     </Page>
   )
