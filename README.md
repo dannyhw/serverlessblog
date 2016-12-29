@@ -13,7 +13,7 @@ deployment to s3 is done via deploy.sh
 
 Requires node,npm,git. Deploy script will only work on a bash shell and requires aws cli to be setup with credentials.
 
-More details on how to setup your own site can be found on the live site [dannyw.info](http://dannyw.info).
+More details on how to setup your own site can be found on the live site [dannyw.info](http://dannyw.info/posts/staticsite/).
 
 ## Install dependencies
 
