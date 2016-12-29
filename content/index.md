@@ -1,5 +1,5 @@
 ---
-title: Daniel Williams tech blog
+title: dannyw.info
 layout: Homepage
 hero: https://s3-eu-west-1.amazonaws.com/dannyhw.info.images/tech-1495181_1280.jpg
 
@@ -8,11 +8,15 @@ cta:
   link: "about"
 ---
 
-I'm interested in new technology, currently one 
-of the newest and most interesting things out there is serverless 
-architecture. I heard about this through my work as a dev ops engineer
-and I've created this site as the first step in a personal project to
-learn more about these new ideas.
+My name is Daniel Williams and this is my website dedicated to my ramblings and personal
+projects. I'm interested in trying out new technology and this where I'll record that
+process and anything I learn along the way.
+
+I'm currently learning about serverless architecture, I've used some of what I learnt so far
+to create this website you see now.
+
+This is a work in progress so feel free to point out any errors or make change suggestions
+directly via the [github repository](https://github.com/dannyhw/serverlessblog).
 
 <!-- demo to show you that you can use "assets" folder -->
 <small>
