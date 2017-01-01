@@ -11,7 +11,7 @@ const LatestPosts = (props, { collection }) => {
   const latestPosts = enhanceCollection(collection, {
     filter: { layout: "Post" },
     sort: "date",
-    reverse: true,
+    reverse: false,
   })
   .slice(0, props.numberOfPosts || defaultNumberOfPosts)
 
